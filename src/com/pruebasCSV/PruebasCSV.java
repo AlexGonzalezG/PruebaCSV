@@ -5,6 +5,7 @@ package com.pruebasCSV;
    */
 
 import com.opencsv.CSVReader;
+import com.pruebasCSV.com.pruebasCSV.LectorCSV;
 
 import java.io.FileReader;
 
@@ -14,7 +15,8 @@ public class PruebasCSV {
      */
 
     public static void main(String[] args) {
-
+        LectorCSV miLector = new LectorCSV();
+        miLector.leeCSV("./datos/pokemon.csv");
     }
 
 
